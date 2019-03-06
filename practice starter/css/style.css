@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Playfair+Display');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", serif;
+}
+
+h1 {
+  color:  #003bde;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Open Sans", serif;
+}
+
+nav {
+  padding: 15px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 15px;
+}
+
+
+nav a {
+  color: #051033;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(122, 131, 142, 0.6);
+  padding: 10px;
+  margin: 20px 20px;
+}
+
+footer li {
+  margin-left: 15px;
+  list-style: none;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer a {
+  color: #d1d1e0;
+  text-decoration: none;
+}
+
+.instagram {
+  margin-right: 15px;
+}
+
+header h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+}
+
+section {
+  text-align: center;
+  padding: 90px 60px;
+}
+
+
+section h3 {
+  font-size: 12px;
+  letter-spacing: .5px;
+  color: #051033;
+}
+
+
+section p {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+}
+
+
+.btn {
+  color: #003bde;
+  border: 1px solid white;
+  font-size: 18px;
+  letter-spacing: .3px;
+  line-height: 18px;
+  border-radius: 3px;
+  background-color: white;
+  padding: 15px 30px;
+  margin: 30px 0;
+}
+
+.btn1 {
+  color: white;
+  background-color: #003bde;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+#left-col {
+  background-image: url(https://images.unsplash.com/photo-1551698618-1dfe5d97d256?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 325px;
+  padding: 100px 60px;
+  width: 50%;
+}
+
+
+#right-col {
+  background-image: url(https://images.unsplash.com/photo-1551336841-32a98a5917eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=824&q=80);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 325px;
+  padding: 100px 60px;
+  width: 50%;
+}
